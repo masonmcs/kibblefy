@@ -1220,7 +1220,7 @@
 
         var data = new FormData(form);
         var action = form.getAttribute('action') || '';
-        var isPlaceholder = action.indexOf('xojrqqed') !== -1 || !action;
+        var isPlaceholder = !action;
 
         var showSuccess = function () {
           form.style.display = 'none';
