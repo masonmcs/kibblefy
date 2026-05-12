@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kibblefy — Privacy Policy</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    max-width: 760px;
+    margin: 40px auto;
+    padding: 0 24px 80px;
+    color: #1a1a1a;
+    line-height: 1.6;
+    font-size: 16px;
+    background: #ffffff;
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 12px;
+  }
+  .subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+  }
+  h3 {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  p, ul, ol { margin-bottom: 14px; }
+  ul, ol { padding-left: 24px; }
+  li { margin-bottom: 6px; }
+  a { color: #c5562a; text-decoration: underline; }
+  a:hover { text-decoration: none; }
+  strong { color: #1a1a1a; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #d4d4d4;
+    padding: 8px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f5f5f5; font-weight: 600; }
+  .summary-box {
+    background: #f8f5ef;
+    border-left: 3px solid #c5562a;
+    padding: 14px 18px;
+    margin: 12px 0;
+    font-style: italic;
+    font-size: 14px;
+  }
+  .toc {
+    background: #fafafa;
+    padding: 16px 24px;
+    border-radius: 4px;
+    margin: 20px 0 32px;
+  }
+  .toc ol { margin: 0; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="subtitle">Last updated: May 12, 2026</p>
+
+<p>This Privacy Policy describes how Kibblefy ("we," "us," or "our") collects, uses, and discloses information when you use the Kibblefy mobile application (the "App") and any related services (collectively, the "Services").</p>
+
+<p>By using Kibblefy, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the Services.</p>
+
+<p>If you have questions, contact us at <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a>.</p>
+
+<div class="summary-box">
+<strong>Summary:</strong> Kibblefy is a pet nutrition tracking app. We collect pet information you enter (name, breed, weight, photos, feeding logs), images you capture for food bag scanning, subscription status from Apple, and standard device identifiers. We share data only with the service providers needed to run the app: RevenueCat (subscription management), Apple (payment processing), Vercel (backend hosting), and Anthropic (AI image analysis). We do not sell your data. We do not show ads. Apple processes all payments — we never see your card.
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+<li><a href="#section-1">What information we collect</a></li>
+<li><a href="#section-2">How we use information</a></li>
+<li><a href="#section-3">Legal bases for processing</a></li>
+<li><a href="#section-4">Who we share information with</a></li>
+<li><a href="#section-5">AI and image processing</a></li>
+<li><a href="#section-6">How long we keep information</a></li>
+<li><a href="#section-7">How we keep information safe</a></li>
+<li><a href="#section-8">Children's privacy</a></li>
+<li><a href="#section-9">Your privacy rights</a></li>
+<li><a href="#section-10">Do-not-track signals</a></li>
+<li><a href="#section-11">US state privacy rights</a></li>
+<li><a href="#section-12">Updates to this notice</a></li>
+<li><a href="#section-13">Contact us</a></li>
+<li><a href="#section-14">How to review, update, or delete your data</a></li>
+</ol>
+</div>
+
+<h2 id="section-1">1. What information we collect</h2>
+
+<div class="summary-box"><strong>In short:</strong> We collect pet information you provide, food bag images you scan, subscription status from Apple, and standard device identifiers needed to run the app.</div>
+
+<h3>1.1 Pet profile information</h3>
+<p>When you set up Kibblefy, you provide information about your pet. This is the core data the app needs to calculate accurate calorie targets. We collect:</p>
+<ul>
+<li>Pet name</li>
+<li>Pet photo (optional, stored on your device)</li>
+<li>Species (dog or cat)</li>
+<li>Breed or mixed-breed size category</li>
+<li>Date of birth or age</li>
+<li>Sex and neuter status</li>
+<li>Current weight and body condition score (BCS)</li>
+<li>Activity level</li>
+<li>Daily feeding logs and portion data</li>
+<li>Weight history from weekly weigh-ins</li>
+</ul>
+
+<h3>1.2 Food bag scans (images)</h3>
+<p>When you use the Scan feature, you capture an image of a pet food package. The image is sent to our backend server, which forwards it to a third-party AI service (Anthropic) for analysis to extract nutrition information (kcal per cup, brand, product name). See Section 5 for details.</p>
+<p>We do not store scanned images on our servers after analysis. The extracted text data (brand name, calorie content) is returned to your device and stored locally.</p>
+
+<h3>1.3 Subscription information</h3>
+<p>Kibblefy is a subscription app. We do not handle payment information ourselves — Apple processes all transactions through the App Store. However, we use a third-party subscription management service (RevenueCat) to track your subscription state. RevenueCat collects:</p>
+<ul>
+<li>An anonymous user identifier (generated automatically; not linked to your name or email)</li>
+<li>Subscription status (trial, active, expired, cancelled)</li>
+<li>Subscription product (monthly or annual plan)</li>
+<li>Purchase and renewal history</li>
+<li>Device identifiers needed for entitlement verification</li>
+</ul>
+<p>We never see your credit card, Apple ID password, or full Apple ID. Apple's standard payment policies apply.</p>
+
+<h3>1.4 Device and application data</h3>
+<p>To operate the app, we may automatically collect:</p>
+<ul>
+<li>Device identifiers (anonymous, used to manage subscription entitlements)</li>
+<li>Device type and operating system version</li>
+<li>App version and crash diagnostics</li>
+<li>Camera permission status (only if you grant camera access for the scan feature)</li>
+<li>Push notification permission status (if push notifications are enabled in a future version)</li>
+</ul>
+
+<h3>1.5 Information you provide directly</h3>
+<p>If you contact us by email, we receive whatever information you include in that message (your email address, name if provided, and the content of your message).</p>
+
+<h3>1.6 Sensitive information</h3>
+<p>We do not collect sensitive personal information such as race, ethnicity, religion, biometric identifiers, precise geolocation, health diagnoses, or government identification numbers.</p>
+
+<h3>1.7 Information from third parties</h3>
+<p>We receive subscription status information from RevenueCat and Apple, as described above. We do not purchase or receive personal information from data brokers, advertising networks, or other third-party sources.</p>
+
+<h2 id="section-2">2. How we use information</h2>
+
+<div class="summary-box"><strong>In short:</strong> We use information to run the app, calculate your pet's nutrition plan, manage your subscription, and respond to your support requests.</div>
+
+<p>We process information for the following purposes:</p>
+<ul>
+<li><strong>To provide the Services.</strong> Calculating your pet's daily calorie target using veterinary nutrition formulas, tracking feeding and weight history, generating Care Summary PDFs.</li>
+<li><strong>To enable food bag scanning.</strong> Forwarding scanned images to our AI analysis pipeline so we can extract nutrition information for you.</li>
+<li><strong>To manage your subscription.</strong> Verifying that you have an active subscription, restoring previous purchases, displaying the correct paywall state.</li>
+<li><strong>To respond to support inquiries.</strong> Replying to emails sent to kibblefy@gmail.com.</li>
+<li><strong>To comply with legal obligations.</strong> Including tax, accounting, dispute resolution, and law enforcement requests where required.</li>
+<li><strong>To protect against fraud and abuse.</strong> Detecting and preventing fraudulent purchases, account abuse, and security threats.</li>
+<li><strong>To improve the Services.</strong> Diagnosing bugs, understanding which features are used, and improving the accuracy of the nutrition engine over time.</li>
+</ul>
+
+<p>We do not use your information for advertising, ad targeting, or sale to third parties.</p>
+
+<h2 id="section-3">3. Legal bases for processing</h2>
+
+<div class="summary-box"><strong>In short:</strong> We process your information because it's necessary to provide the Services you signed up for, because we have a legitimate interest in operating our business, or because we are legally required to.</div>
+
+<h3>3.1 If you are in the European Economic Area, United Kingdom, or Switzerland</h3>
+<p>Under the General Data Protection Regulation (GDPR) and UK GDPR, we rely on the following legal bases:</p>
+<ul>
+<li><strong>Performance of a contract.</strong> Processing necessary to deliver the Services you signed up for, including subscription management, nutrition calculations, and food bag scanning.</li>
+<li><strong>Legitimate interests.</strong> Operating, maintaining, and improving the Services; preventing fraud; ensuring security.</li>
+<li><strong>Consent.</strong> Where we ask for specific permissions (such as camera access or push notifications). You can withdraw consent at any time through your device settings.</li>
+<li><strong>Legal obligation.</strong> Compliance with tax, accounting, and other legal requirements.</li>
+</ul>
+
+<h3>3.2 If you are in Canada</h3>
+<p>We process your information with your consent (express where required, implied for activities reasonably necessary to provide the Services). You can withdraw consent at any time by contacting us.</p>
+
+<h2 id="section-4">4. Who we share information with</h2>
+
+<div class="summary-box"><strong>In short:</strong> We share information only with the service providers we need to operate the app. We do not sell your data. We do not share with advertisers.</div>
+
+<p>We share information with the following categories of service providers, each bound by their own privacy policies and contractual obligations:</p>
+
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Purpose</th>
+<th>Data shared</th>
+<th>Privacy policy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RevenueCat</strong></td>
+<td>Subscription state management and entitlement verification</td>
+<td>Anonymous user identifier, subscription status, purchase history, device identifiers</td>
+<td><a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">revenuecat.com/privacy</a></td>
+</tr>
+<tr>
+<td><strong>Apple App Store</strong></td>
+<td>Payment processing for in-app subscriptions</td>
+<td>Apple handles payment data directly; we never see your card. Apple shares anonymized purchase confirmations and subscription state with us.</td>
+<td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></td>
+</tr>
+<tr>
+<td><strong>Vercel</strong></td>
+<td>Backend API hosting and image processing infrastructure</td>
+<td>Food bag images forwarded through our API endpoint; standard server logs (IP address, request timestamps)</td>
+<td><a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">vercel.com/legal/privacy-policy</a></td>
+</tr>
+<tr>
+<td><strong>Anthropic</strong></td>
+<td>AI-powered image analysis (extracting nutrition data from food bag photos)</td>
+<td>Food bag images submitted via the Scan feature</td>
+<td><a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">anthropic.com/legal/privacy</a></td>
+</tr>
+</tbody>
+</table>
+
+<h3>4.1 Other situations where we may share information</h3>
+<ul>
+<li><strong>Legal requirements.</strong> If required by law, court order, or government request (subpoena, warrant), or to protect our legal rights.</li>
+<li><strong>Business transfers.</strong> If Kibblefy is involved in a merger, acquisition, or sale of assets, your information may be transferred to the acquiring entity. We will notify you of any such change.</li>
+<li><strong>Safety.</strong> To protect the vital interests of a person, prevent harm, or address suspected fraud or security threats.</li>
+</ul>
+
+<p>We do not sell, rent, or share your personal information with advertisers, data brokers, or third parties for their independent marketing purposes.</p>
+
+<h2 id="section-5">5. AI and image processing</h2>
+
+<div class="summary-box"><strong>In short:</strong> Our Scan feature uses Anthropic's AI to extract nutrition information from food bag images. The image is processed for analysis and not retained on our servers after the response is returned.</div>
+
+<p>Kibblefy includes a Scan feature that uses artificial intelligence to read pet food packaging. When you take a photo of a food bag:</p>
+<ol>
+<li>The image is sent over an encrypted connection to our backend API hosted on Vercel.</li>
+<li>Our backend forwards the image to Anthropic, which uses computer vision to extract data such as brand name, product name, calories per cup, calories per piece, and calories per kilogram.</li>
+<li>The extracted text-based nutrition data is returned to your device.</li>
+<li>The image is not retained on our servers after the analysis completes.</li>
+<li>Anthropic's data handling is governed by their privacy policy and our agreement with them. Anthropic does not use submitted images to train their models when accessed through their commercial API.</li>
+</ol>
+
+<p>The scan feature does not analyze your pet, your face, your location, or anything other than the food packaging in the frame.</p>
+
+<p>You must not use the Scan feature in any way that violates Anthropic's terms of service or any applicable law.</p>
+
+<h2 id="section-6">6. How long we keep information</h2>
+
+<div class="summary-box"><strong>In short:</strong> Pet data is stored on your device while you use the app. Subscription records are retained for up to 7 years for tax and accounting purposes. Scanned images are not retained after analysis.</div>
+
+<ul>
+<li><strong>Pet profile, feeding logs, weight history:</strong> Stored locally on your device. Deleted when you remove the app or delete the pet from within the app.</li>
+<li><strong>Scanned food bag images:</strong> Not retained on our servers after analysis. Anthropic's retention is governed by their API terms.</li>
+<li><strong>Subscription and purchase records:</strong> Retained for up to 7 years to comply with tax, accounting, and dispute resolution obligations.</li>
+<li><strong>Anonymous user identifiers (RevenueCat):</strong> Retained as long as your subscription is active, plus up to 7 years for record-keeping.</li>
+<li><strong>Support emails:</strong> Retained for up to 3 years for service quality and follow-up purposes.</li>
+<li><strong>Server logs (Vercel):</strong> Retained for up to 90 days for security and diagnostic purposes.</li>
+</ul>
+
+<p>When we no longer have a legitimate business or legal need to retain your information, we will delete or anonymize it.</p>
+
+<h2 id="section-7">7. How we keep information safe</h2>
+
+<div class="summary-box"><strong>In short:</strong> We use industry-standard security practices. No system is perfectly secure, but we take reasonable measures to protect your information.</div>
+
+<p>We use technical and organizational measures designed to protect your information, including:</p>
+<ul>
+<li>HTTPS encryption for all data transmitted to and from our servers</li>
+<li>API authentication tokens for backend access</li>
+<li>Service provider agreements requiring appropriate security standards</li>
+<li>Local-only storage of pet data on your device (most data never leaves your phone)</li>
+</ul>
+
+<p>Despite these measures, no electronic transmission or storage system is 100% secure. We cannot guarantee absolute security. You access the Services at your own risk and should keep your device and Apple ID password secure.</p>
+
+<h2 id="section-8">8. Children's privacy</h2>
+
+<div class="summary-box"><strong>In short:</strong> Kibblefy is intended for users 18 and older. We do not knowingly collect data from minors.</div>
+
+<p>Kibblefy is not directed at children under 18 years of age (or the equivalent age of majority in your jurisdiction). We do not knowingly collect personal information from children. By using the Services, you represent that you are at least 18 years old.</p>
+
+<p>If you believe a child under 18 has provided us with personal information, contact us at <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a> and we will take steps to delete it.</p>
+
+<h2 id="section-9">9. Your privacy rights</h2>
+
+<div class="summary-box"><strong>In short:</strong> Depending on where you live, you may have rights to access, correct, delete, or export your personal information.</div>
+
+<p>Depending on your location, you may have the following rights:</p>
+<ul>
+<li><strong>Access</strong> — request a copy of the information we hold about you</li>
+<li><strong>Correction</strong> — request that we correct inaccurate information</li>
+<li><strong>Deletion</strong> — request that we delete your information</li>
+<li><strong>Portability</strong> — request a copy of your data in a portable format</li>
+<li><strong>Objection</strong> — object to certain types of processing</li>
+<li><strong>Restriction</strong> — request that we limit how we use your information</li>
+<li><strong>Withdraw consent</strong> — withdraw consent for processing that relies on your consent</li>
+</ul>
+
+<p>To exercise any of these rights, email us at <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a>. We will respond within the timeframe required by applicable law.</p>
+
+<p>If you are in the EEA or UK and believe we are unlawfully processing your information, you have the right to complain to your local data protection authority. In Switzerland, you may contact the Federal Data Protection and Information Commissioner.</p>
+
+<h2 id="section-10">10. Do-not-track signals</h2>
+
+<p>The Kibblefy app is a native mobile application and does not operate as a website that responds to web browser Do-Not-Track signals. We do not track your activity across third-party websites or apps.</p>
+
+<h2 id="section-11">11. US state privacy rights</h2>
+
+<div class="summary-box"><strong>In short:</strong> Residents of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, and Virginia have specific rights under their state laws.</div>
+
+<h3>11.1 Categories of personal information collected</h3>
+<p>In the past twelve months, we have collected the following categories of personal information as defined by US state privacy laws:</p>
+
+<table>
+<thead>
+<tr><th>Category</th><th>Examples</th><th>Collected</th></tr>
+</thead>
+<tbody>
+<tr><td>A. Identifiers</td><td>Anonymous user identifier, device identifier, IP address (via server logs), email address (if you contact us)</td><td>Yes</td></tr>
+<tr><td>B. Customer records (Cal. Civ. Code §1798.80)</td><td>Name (only if you provide it via email)</td><td>Yes (limited)</td></tr>
+<tr><td>C. Protected classification characteristics</td><td>Not applicable</td><td>No</td></tr>
+<tr><td>D. Commercial information</td><td>Subscription status, purchase history, transaction records</td><td>Yes</td></tr>
+<tr><td>E. Biometric information</td><td>Not applicable</td><td>No</td></tr>
+<tr><td>F. Internet or network activity</td><td>App usage data, crash logs, server access logs</td><td>Yes (limited)</td></tr>
+<tr><td>G. Geolocation data</td><td>Not collected (we do not request location permissions)</td><td>No</td></tr>
+<tr><td>H. Audio, electronic, sensory information</td><td>Food bag images submitted via Scan feature</td><td>Yes</td></tr>
+<tr><td>I. Professional or employment information</td><td>Not applicable</td><td>No</td></tr>
+<tr><td>J. Education information</td><td>Not applicable</td><td>No</td></tr>
+<tr><td>K. Inferences</td><td>Not applicable</td><td>No</td></tr>
+<tr><td>L. Sensitive personal information</td><td>Not applicable</td><td>No</td></tr>
+</tbody>
+</table>
+
+<h3>11.2 Your rights under US state law</h3>
+<p>Depending on your state of residence, you may have the right to:</p>
+<ul>
+<li>Know whether we are processing your personal information</li>
+<li>Access your personal information</li>
+<li>Correct inaccurate personal information</li>
+<li>Delete your personal information</li>
+<li>Obtain a portable copy of your personal information</li>
+<li>Opt out of the sale or sharing of personal information (we do not sell or share)</li>
+<li>Opt out of targeted advertising (we do not engage in targeted advertising)</li>
+<li>Limit the use of sensitive personal information (we do not collect sensitive personal information)</li>
+<li>Not be discriminated against for exercising your rights</li>
+</ul>
+
+<h3>11.3 Sale and sharing of personal information</h3>
+<p>We do not sell personal information and have not sold personal information in the past twelve months. We do not share personal information for cross-context behavioral advertising and have not done so in the past twelve months.</p>
+
+<h3>11.4 How to exercise your rights</h3>
+<p>Email us at <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a>. We will verify your identity before responding to any request. We may need to ask you to confirm information we already have on file (such as your subscription email or app installation identifier).</p>
+
+<h3>11.5 Authorized agents</h3>
+<p>You may designate an authorized agent to submit requests on your behalf. We may require proof of authorization before acting on such a request.</p>
+
+<h3>11.6 Appeals</h3>
+<p>If we deny your request, you may appeal by replying to our response email or contacting us again at <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a>. We will respond to appeals within 60 days. If we deny your appeal, you may contact your state attorney general.</p>
+
+<h2 id="section-12">12. Updates to this notice</h2>
+<p>We may update this Privacy Policy from time to time. When we make material changes, we will update the "Last updated" date at the top of this page and, where appropriate, notify you within the app or by email. We encourage you to review this policy periodically.</p>
+
+<h2 id="section-13">13. Contact us</h2>
+<p>If you have questions, concerns, or requests regarding this Privacy Policy or our handling of your information, contact us:</p>
+<p>
+<strong>Email:</strong> <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a><br>
+<strong>Postal address:</strong><br>
+Kibblefy<br>
+190 Evergreen Rd, 101<br>
+Gilmer, TX 75645<br>
+United States
+</p>
+
+<h2 id="section-14">14. How to review, update, or delete your data</h2>
+<p>You can review and update your pet profile and feeding data directly within the Kibblefy app. To delete your data:</p>
+<ul>
+<li><strong>Delete a pet:</strong> Use the pet deletion feature within the app (Profile → Edit pet → Delete).</li>
+<li><strong>Delete all local data:</strong> Uninstall the Kibblefy app from your device.</li>
+<li><strong>Cancel your subscription:</strong> Manage subscriptions in iPhone Settings → Apple ID → Subscriptions.</li>
+<li><strong>Request deletion of records held by us:</strong> Email <a href="mailto:kibblefy@gmail.com">kibblefy@gmail.com</a> with the subject "Data Deletion Request."</li>
+</ul>
+
+<p>We will process verified deletion requests within the timeframe required by applicable law (typically 30–45 days). Some information may be retained where required by law (such as tax or accounting records).</p>
+
+</body>
+</html>
